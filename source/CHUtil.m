@@ -10,7 +10,7 @@
  The software is  provided "as is", without warranty of any kind, including all implied warranties of merchantability and fitness. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
  */
 
-#import "Util.h"
+#import "CHUtil.h"
 #import <objc/message.h>
 
 // For iOS, define enum and dummy functions used for Garbage Collection.
@@ -29,7 +29,6 @@ void* __strong NSReallocateCollectable(void *ptr, NSUInteger size, NSUInteger op
 #pragma mark -
 
 BOOL kCHGarbageCollectionNotEnabled; // A variable declared extern in Util.h
-size_t kCHPointerSize = sizeof(void*); // A variable declared extern in Util.h
 
 /**
  Determines GC status and sets @c kCHGarbageCollectionNotEnabled appropriately.
@@ -84,7 +83,7 @@ NSUInteger hashOfCountAndObjects(NSUInteger count, id object1, id object2) {
 void CHIndexOutOfRangeException(Class aClass, SEL method,
                                 NSUInteger index, NSUInteger count) {
 	[NSException raise:NSRangeException
-	            format:@"[%@ %s] -- Index (%lu) beyond bounds for count (%lu)",
+	            format:@"[%@ %s] -- Index (%u) beyond bounds for count (%u)",
 	                   aClass, sel_getName(method), index, count];
 }
 
