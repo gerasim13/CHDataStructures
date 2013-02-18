@@ -1,0 +1,11 @@
+digraph "CHMutableSet.h"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHMutableSet.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="CHOrderedSet.h",height=0.2,width=0.4,color="black",URL="$_c_h_ordered_set_8h.html",tooltip="A set which also maintains order of insertion, including manual reordering."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="CHDataStructures.h",height=0.2,width=0.4,color="black",URL="$_c_h_data_structures_8h.html",tooltip="An umbrella header which imports all the public header files for the framework."];
+}

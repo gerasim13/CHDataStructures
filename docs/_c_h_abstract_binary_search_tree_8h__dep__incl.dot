@@ -1,0 +1,25 @@
+digraph "CHAbstractBinarySearchTree.h"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHAbstractBinarySearchTree.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="CHAbstractBinarySearchTree\l_Internal.h",height=0.2,width=0.4,color="black",URL="$_c_h_abstract_binary_search_tree___internal_8h.html",tooltip="Contains #defines for performing various traversals of binary search trees."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="CHAnderssonTree.h",height=0.2,width=0.4,color="black",URL="$_c_h_andersson_tree_8h.html",tooltip="An AA-tree implementation of CHSearchTree."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="CHDataStructures.h",height=0.2,width=0.4,color="black",URL="$_c_h_data_structures_8h.html",tooltip="An umbrella header which imports all the public header files for the framework."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node5 [label="CHAVLTree.h",height=0.2,width=0.4,color="black",URL="$_c_h_a_v_l_tree_8h.html",tooltip="An AVL tree implementation of CHSearchTree."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node6 [label="CHRedBlackTree.h",height=0.2,width=0.4,color="black",URL="$_c_h_red_black_tree_8h.html",tooltip="A Red-Black tree implementation of CHSearchTree."];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node7 [label="CHTreap.h",height=0.2,width=0.4,color="black",URL="$_c_h_treap_8h.html",tooltip="A Treap implementation of CHSearchTree."];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node8 [label="CHUnbalancedTree.h",height=0.2,width=0.4,color="black",URL="$_c_h_unbalanced_tree_8h.html",tooltip="A generic, unbalanced implementation of CHSearchTree."];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+}

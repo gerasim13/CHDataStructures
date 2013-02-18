@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  rankdir="LR";
+  Node1 [label="NSEnumerator",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Classes/NSEnumerator_Class/Reference/Reference.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="CHBinarySearchTreeEnumerator",height=0.2,width=0.4,color="black",URL="$interface_c_h_binary_search_tree_enumerator.html",tooltip="An NSEnumerator for traversing any CHAbstractBinarySearchTree subclass in a specified order..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="CHCircularBufferEnumerator",height=0.2,width=0.4,color="black",URL="$interface_c_h_circular_buffer_enumerator.html",tooltip="An NSEnumerator for traversing a CHAbstractCircularBufferCollection subclass."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="CHDoublyLinkedListEnumerator",height=0.2,width=0.4,color="black",URL="$interface_c_h_doubly_linked_list_enumerator.html",tooltip="An NSEnumerator for traversing a CHDoublyLinkedList in forward or reverse order."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node5 [label="CHSinglyLinkedListEnumerator",height=0.2,width=0.4,color="black",URL="$interface_c_h_singly_linked_list_enumerator.html",tooltip="An NSEnumerator for traversing a CHSinglyLinkedList from front to back."];
+}

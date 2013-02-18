@@ -1,0 +1,15 @@
+digraph "CHCircularBuffer"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHCircularBuffer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="NSMutableArray",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Classes/NSMutableArray_Class/Reference/Reference.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="CHCircularBufferDeque",height=0.2,width=0.4,color="black",URL="$interface_c_h_circular_buffer_deque.html",tooltip="A simple CHDeque implemented using a CHCircularBuffer."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="CHCircularBufferQueue",height=0.2,width=0.4,color="black",URL="$interface_c_h_circular_buffer_queue.html",tooltip="A simple CHQueue implemented using a CHCircularBuffer."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node5 [label="CHCircularBufferStack",height=0.2,width=0.4,color="black",URL="$interface_c_h_circular_buffer_stack.html",tooltip="A simple CHStack implemented using a CHCircularBuffer."];
+}

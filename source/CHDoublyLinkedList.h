@@ -18,9 +18,15 @@
  A standard doubly-linked list implementation with pointers to head and tail.
  */
 
+#if __has_feature(objc_arc)
+#define ARC_MEMBER __unsafe_unretained
+#else
+#define ARC_MEMBER
+#endif
+
 /** A struct for nodes in a CHDoublyLinkedList. */
 typedef struct CHDoublyLinkedListNode {
-	id object; ///< The object associated with this node in the list.
+	ARC_MEMBER id object; ///< The object associated with this node in the list.
 	__strong struct CHDoublyLinkedListNode *next; ///< Next node in the list.
 	__strong struct CHDoublyLinkedListNode *prev; ///< Previous node in the list.
 } CHDoublyLinkedListNode;

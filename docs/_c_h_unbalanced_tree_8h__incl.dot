@@ -1,0 +1,17 @@
+digraph "CHUnbalancedTree.h"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHUnbalancedTree.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="CHAbstractBinarySearchTree.h",height=0.2,width=0.4,color="black",URL="$_c_h_abstract_binary_search_tree_8h.html",tooltip="An abstract CHSearchTree implementation with many default method implementations."];
+  Node2 -> Node3 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="CHSearchTree.h",height=0.2,width=0.4,color="black",URL="$_c_h_search_tree_8h.html",tooltip="A protocol which specifes an interface for N-ary search trees."];
+  Node3 -> Node4 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="CHSortedSet.h",height=0.2,width=0.4,color="black",URL="$_c_h_sorted_set_8h.html",tooltip="A protocol which specifes an interface for sorted sets."];
+  Node4 -> Node5 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node5 [label="Util.h",height=0.2,width=0.4,color="black",URL="$_util_8h.html",tooltip="A group of utility C functions for simplifying common exceptions and logging."];
+  Node5 -> Node6 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node6 [label="Foundation/Foundation.h",height=0.2,width=0.4,color="grey75"];
+}

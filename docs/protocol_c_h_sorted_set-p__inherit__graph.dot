@@ -1,0 +1,29 @@
+digraph "&lt;CHSortedSet&gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="\<CHSortedSet\>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="\<NSObject-p\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html"];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="\<NSCoding\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html"];
+  Node4 -> Node1 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="\<NSCopying\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html"];
+  Node5 -> Node1 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node5 [label="\<NSFastEnumeration\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/NSFastEnumeration_protocol/Reference/NSFastEnumeration.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node6 [label="\<CHSearchTree\>",height=0.2,width=0.4,color="black",URL="$protocol_c_h_search_tree-p.html",tooltip="A protocol which specifes an interface for search trees, such as standard binary trees, B-trees, N-ary trees, or any similar tree-like structure."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node7 [label="CHAbstractBinarySearchTree",height=0.2,width=0.4,color="black",URL="$interface_c_h_abstract_binary_search_tree.html",tooltip="An abstract CHSearchTree with many default method implementations."];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node8 [label="CHAnderssonTree",height=0.2,width=0.4,color="black",URL="$interface_c_h_andersson_tree.html",tooltip="An AA-tree, a balanced binary search tree with guaranteed O(log n) access."];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node9 [label="CHAVLTree",height=0.2,width=0.4,color="black",URL="$interface_c_h_a_v_l_tree.html",tooltip="An AVL tree, a balanced binary search tree with guaranteed O(log n) access."];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node10 [label="CHRedBlackTree",height=0.2,width=0.4,color="black",URL="$interface_c_h_red_black_tree.html",tooltip="A Red-Black tree, a balanced binary search tree with guaranteed O(log n) access."];
+  Node7 -> Node11 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node11 [label="CHTreap",height=0.2,width=0.4,color="black",URL="$interface_c_h_treap.html",tooltip="A Treap, a balanced binary tree with O(log n) access in general, and improbable worst cases..."];
+  Node7 -> Node12 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node12 [label="CHUnbalancedTree",height=0.2,width=0.4,color="black",URL="$interface_c_h_unbalanced_tree.html",tooltip="A simple unbalanced binary tree that does not guarantee O(log n) access."];
+}

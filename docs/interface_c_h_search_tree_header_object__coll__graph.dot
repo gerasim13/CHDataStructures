@@ -1,0 +1,9 @@
+digraph "CHSearchTreeHeaderObject"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHSearchTreeHeaderObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="NSObject",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html"];
+}

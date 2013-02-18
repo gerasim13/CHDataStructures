@@ -1,0 +1,15 @@
+digraph "CHStack.h"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHStack.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="CHCircularBufferStack.h",height=0.2,width=0.4,color="black",URL="$_c_h_circular_buffer_stack_8h.html",tooltip="A simple CHStack implemented using a CHCircularBuffer."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="CHDataStructures.h",height=0.2,width=0.4,color="black",URL="$_c_h_data_structures_8h.html",tooltip="An umbrella header which imports all the public header files for the framework."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="CHListStack.h",height=0.2,width=0.4,color="black",URL="$_c_h_list_stack_8h.html",tooltip="A simple CHStack implemented using a CHSinglyLinkedList."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+}

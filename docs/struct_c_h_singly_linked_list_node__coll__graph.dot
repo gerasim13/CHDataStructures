@@ -1,0 +1,10 @@
+digraph "CHSinglyLinkedListNode"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHSinglyLinkedListNode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node1 [dir="back",color="darkorchid3",fontsize="9",style="dashed",label=" next" ,fontname="LucidaGrande"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="9",style="dashed",label=" object" ,fontname="LucidaGrande"];
+  Node2 [label="id",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html"];
+}

@@ -1,0 +1,14 @@
+digraph "LoopsequeDJ" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="9", fontname="LucidaGrande"];
+  edge [ labelfontsize="9", labelfontname="LucidaGrande"];
+  subgraph clusterdir_732fc6258d128f438a433d2364a01a15 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="My Projects" fontname="LucidaGrande", fontsize="9", URL="dir_732fc6258d128f438a433d2364a01a15.html"]
+  subgraph clusterdir_4cd0641a445bc12c37bc429509fc135f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_4cd0641a445bc12c37bc429509fc135f.html"];
+    dir_4cd0641a445bc12c37bc429509fc135f [shape=plaintext label="LoopsequeDJ"];
+    dir_f81787cb97d0820c2b8fa2f8088998d9 [shape=box label="App" color="red" fillcolor="white" style="filled" URL="dir_f81787cb97d0820c2b8fa2f8088998d9.html"];
+  }
+  }
+}

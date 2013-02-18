@@ -1,0 +1,17 @@
+digraph "CHMutableDictionary.h"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHMutableDictionary.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="CHMultiDictionary.h",height=0.2,width=0.4,color="black",URL="$_c_h_multi_dictionary_8h.html",tooltip="A multimap in which multiple values may be associated with a given key."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="CHDataStructures.h",height=0.2,width=0.4,color="black",URL="$_c_h_data_structures_8h.html",tooltip="An umbrella header which imports all the public header files for the framework."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="CHOrderedDictionary.h",height=0.2,width=0.4,color="black",URL="$_c_h_ordered_dictionary_8h.html",tooltip="A dictionary which enumerates keys in the order in which they are inserted."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node5 [label="CHSortedDictionary.h",height=0.2,width=0.4,color="black",URL="$_c_h_sorted_dictionary_8h.html",tooltip="A dictionary which enumerates keys according to their natural sorted order."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+}

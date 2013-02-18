@@ -45,8 +45,15 @@
  
  Since CHUnbalancedTree doesn't store any extra data, the second union is essentially 4 bytes of pure overhead per node. However, since unbalanced trees are generally not a good choice for sorting large data sets anyway, this is largely a moot point.
  */
+
+#if __has_feature(objc_arc)
+#define ARC_MEMBER __unsafe_unretained
+#else
+#define ARC_MEMBER
+#endif
+
 typedef struct CHBinaryTreeNode {
-	id object;                        ///< The object stored in the node.
+	ARC_MEMBER id object;                        ///< The object stored in the node.
 	union {
 		struct {
 			__strong struct CHBinaryTreeNode *left;  ///< Link to left child.

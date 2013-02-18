@@ -1,0 +1,9 @@
+digraph "CHSortedDictionary.h"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHSortedDictionary.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="CHDataStructures.h",height=0.2,width=0.4,color="black",URL="$_c_h_data_structures_8h.html",tooltip="An umbrella header which imports all the public header files for the framework."];
+}

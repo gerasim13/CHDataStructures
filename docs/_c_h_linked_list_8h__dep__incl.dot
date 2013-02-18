@@ -1,0 +1,26 @@
+digraph "CHLinkedList.h"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHLinkedList.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="CHAbstractListCollection.h",height=0.2,width=0.4,color="black",URL="$_c_h_abstract_list_collection_8h.html",tooltip="An abstract class which implements common behaviors of list-based collections."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="CHListDeque.h",height=0.2,width=0.4,color="black",URL="$_c_h_list_deque_8h.html",tooltip="A simple CHDeque implemented using a CHDoublyLinkedList."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="CHDataStructures.h",height=0.2,width=0.4,color="black",URL="$_c_h_data_structures_8h.html",tooltip="An umbrella header which imports all the public header files for the framework."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node5 [label="CHListQueue.h",height=0.2,width=0.4,color="black",URL="$_c_h_list_queue_8h.html",tooltip="A simple CHQueue implemented using a CHSinglyLinkedList."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node6 [label="CHListStack.h",height=0.2,width=0.4,color="black",URL="$_c_h_list_stack_8h.html",tooltip="A simple CHStack implemented using a CHSinglyLinkedList."];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node7 [label="CHDoublyLinkedList.h",height=0.2,width=0.4,color="black",URL="$_c_h_doubly_linked_list_8h.html",tooltip="A standard doubly-linked list implementation with pointers to head and tail."];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node8 [label="CHSinglyLinkedList.h",height=0.2,width=0.4,color="black",URL="$_c_h_singly_linked_list_8h.html",tooltip="A standard singly-linked list implementation with pointers to head and tail."];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+}

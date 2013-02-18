@@ -1,0 +1,14 @@
+digraph "App" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="9", fontname="LucidaGrande"];
+  edge [ labelfontsize="9", labelfontname="LucidaGrande"];
+  subgraph clusterdir_4cd0641a445bc12c37bc429509fc135f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="LoopsequeDJ" fontname="LucidaGrande", fontsize="9", URL="dir_4cd0641a445bc12c37bc429509fc135f.html"]
+  subgraph clusterdir_f81787cb97d0820c2b8fa2f8088998d9 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_f81787cb97d0820c2b8fa2f8088998d9.html"];
+    dir_f81787cb97d0820c2b8fa2f8088998d9 [shape=plaintext label="App"];
+    dir_a1d32042fd0b824b0abf408b44507fce [shape=box label="Libraries" color="red" fillcolor="white" style="filled" URL="dir_a1d32042fd0b824b0abf408b44507fce.html"];
+  }
+  }
+}

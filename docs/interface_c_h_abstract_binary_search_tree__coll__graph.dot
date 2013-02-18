@@ -1,0 +1,26 @@
+digraph "CHAbstractBinarySearchTree"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHAbstractBinarySearchTree",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="NSObject",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html"];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="\<CHSearchTree\>",height=0.2,width=0.4,color="black",URL="$protocol_c_h_search_tree-p.html",tooltip="A protocol which specifes an interface for search trees, such as standard binary trees, B-trees, N-ary trees, or any similar tree-like structure."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="\<CHSortedSet\>",height=0.2,width=0.4,color="black",URL="$protocol_c_h_sorted_set-p.html",tooltip="A protocol which specifes an interface for sorted sets."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node5 [label="\<NSObject-p\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node6 [label="\<NSCoding\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html"];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node7 [label="\<NSCopying\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html"];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node8 [label="\<NSFastEnumeration\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/NSFastEnumeration_protocol/Reference/NSFastEnumeration.html"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="9",style="dashed",label=" header\nsentinel" ,fontname="LucidaGrande"];
+  Node9 [label="CHBinaryTreeNode",height=0.2,width=0.4,color="black",URL="$struct_c_h_binary_tree_node.html",tooltip="A node used by binary search trees for internal storage and representation."];
+  Node9 -> Node9 [dir="back",color="darkorchid3",fontsize="9",style="dashed",label=" right\nleft\nlink" ,fontname="LucidaGrande"];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="9",style="dashed",label=" object" ,fontname="LucidaGrande"];
+  Node10 [label="id",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html"];
+}

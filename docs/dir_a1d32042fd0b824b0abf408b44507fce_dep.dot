@@ -1,0 +1,14 @@
+digraph "Libraries" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="9", fontname="LucidaGrande"];
+  edge [ labelfontsize="9", labelfontname="LucidaGrande"];
+  subgraph clusterdir_f81787cb97d0820c2b8fa2f8088998d9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="App" fontname="LucidaGrande", fontsize="9", URL="dir_f81787cb97d0820c2b8fa2f8088998d9.html"]
+  subgraph clusterdir_a1d32042fd0b824b0abf408b44507fce {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_a1d32042fd0b824b0abf408b44507fce.html"];
+    dir_a1d32042fd0b824b0abf408b44507fce [shape=plaintext label="Libraries"];
+    dir_7fbaa0809a014c6b7a64c4e732f87895 [shape=box label="CHDataStructures" color="red" fillcolor="white" style="filled" URL="dir_7fbaa0809a014c6b7a64c4e732f87895.html"];
+  }
+  }
+}

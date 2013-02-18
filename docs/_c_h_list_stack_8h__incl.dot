@@ -1,0 +1,18 @@
+digraph "CHListStack.h"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHListStack.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="CHStack.h",height=0.2,width=0.4,color="black",URL="$_c_h_stack_8h.html",tooltip="A stack protocol with methods for LIFO (&quot;Last In, First Out&quot;) operations."];
+  Node2 -> Node3 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="Util.h",height=0.2,width=0.4,color="black",URL="$_util_8h.html",tooltip="A group of utility C functions for simplifying common exceptions and logging."];
+  Node3 -> Node4 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="Foundation/Foundation.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node5 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node5 [label="CHAbstractListCollection.h",height=0.2,width=0.4,color="black",URL="$_c_h_abstract_list_collection_8h.html",tooltip="An abstract class which implements common behaviors of list-based collections."];
+  Node5 -> Node6 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node6 [label="CHLinkedList.h",height=0.2,width=0.4,color="black",URL="$_c_h_linked_list_8h.html",tooltip="A linked list protocol with methods that work for singly- or doubly-linked lists."];
+  Node6 -> Node3 [color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+}

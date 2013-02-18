@@ -1,0 +1,28 @@
+digraph "CHAnderssonTree"
+{
+  bgcolor="transparent";
+  edge [fontname="LucidaGrande",fontsize="9",labelfontname="LucidaGrande",labelfontsize="9"];
+  node [fontname="LucidaGrande",fontsize="9",shape=record];
+  Node1 [label="CHAnderssonTree",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node2 [label="CHAbstractBinarySearchTree",height=0.2,width=0.4,color="black",URL="$interface_c_h_abstract_binary_search_tree.html",tooltip="An abstract CHSearchTree with many default method implementations."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node3 [label="NSObject",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html"];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node4 [label="\<CHSearchTree\>",height=0.2,width=0.4,color="black",URL="$protocol_c_h_search_tree-p.html",tooltip="A protocol which specifes an interface for search trees, such as standard binary trees, B-trees, N-ary trees, or any similar tree-like structure."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node5 [label="\<CHSortedSet\>",height=0.2,width=0.4,color="black",URL="$protocol_c_h_sorted_set-p.html",tooltip="A protocol which specifes an interface for sorted sets."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node6 [label="\<NSObject-p\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html"];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node7 [label="\<NSCoding\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html"];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node8 [label="\<NSCopying\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html"];
+  Node9 -> Node5 [dir="back",color="midnightblue",fontsize="9",style="solid",fontname="LucidaGrande"];
+  Node9 [label="\<NSFastEnumeration\>",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/NSFastEnumeration_protocol/Reference/NSFastEnumeration.html"];
+  Node10 -> Node2 [dir="back",color="darkorchid3",fontsize="9",style="dashed",label=" header\nsentinel" ,fontname="LucidaGrande"];
+  Node10 [label="CHBinaryTreeNode",height=0.2,width=0.4,color="black",URL="$struct_c_h_binary_tree_node.html",tooltip="A node used by binary search trees for internal storage and representation."];
+  Node10 -> Node10 [dir="back",color="darkorchid3",fontsize="9",style="dashed",label=" right\nleft\nlink" ,fontname="LucidaGrande"];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="9",style="dashed",label=" object" ,fontname="LucidaGrande"];
+  Node11 [label="id",height=0.2,width=0.4,color="black",URL="/Users/pavellitvinenko/Documents/My Projects/LoopsequeDJ/App/Libraries/CHDataStructures/doxygen/doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html"];
+}
