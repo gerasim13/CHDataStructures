@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4399A0C10A33C1200209906"
-               BuildableName = "libCHDataStructures.a"
-               BlueprintName = "iOS Static Library"
+               BlueprintIdentifier = "00C423EE16D28C98008E0CC8"
+               BuildableName = "iOS Unit Testing App.app"
+               BlueprintName = "iOS Unit Testing App"
                ReferencedContainer = "container:CHDataStructures.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,13 +32,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00C423D516D28B28008E0CC8"
-               BuildableName = "iOS Unit Testing.octest"
-               BlueprintName = "iOS Unit Testing"
+               BlueprintIdentifier = "00C4240D16D28C98008E0CC8"
+               BuildableName = "iOS Unit Testing AppTests.octest"
+               BlueprintName = "iOS Unit Testing AppTests"
                ReferencedContainer = "container:CHDataStructures.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "00C423EE16D28C98008E0CC8"
+            BuildableName = "iOS Unit Testing App.app"
+            BlueprintName = "iOS Unit Testing App"
+            ReferencedContainer = "container:CHDataStructures.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -49,6 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "00C423EE16D28C98008E0CC8"
+            BuildableName = "iOS Unit Testing App.app"
+            BlueprintName = "iOS Unit Testing App"
+            ReferencedContainer = "container:CHDataStructures.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -58,6 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "00C423EE16D28C98008E0CC8"
+            BuildableName = "iOS Unit Testing App.app"
+            BlueprintName = "iOS Unit Testing App"
+            ReferencedContainer = "container:CHDataStructures.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

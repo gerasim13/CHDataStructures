@@ -51,7 +51,7 @@ static const CFDictionaryValueCallBacks kCHDictionaryValueCallBacks = {
 	CHDictionaryEqual
 };
 
-void createCollectableCFMutableDictionary(__strong CFMutableDictionaryRef* dictionary, NSUInteger initialCapacity) {
+void createCollectableCFMutableDictionary(CFMutableDictionaryRef* dictionary, NSUInteger initialCapacity) {
 	// Create a CFMutableDictionaryRef with callback functions as defined above.
 	*dictionary = CFDictionaryCreateMutable(kCFAllocatorDefault,
 	                                       initialCapacity,

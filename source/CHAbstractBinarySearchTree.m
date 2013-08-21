@@ -96,8 +96,8 @@ static CHSearchTreeHeaderObject *headerObject = nil;
 @interface CHBinarySearchTreeEnumerator : NSEnumerator
 {
 	__strong id<CHSearchTree> searchTree; // The tree being enumerated.
-	__strong CHBinaryTreeNode *current; // The next node to be enumerated.
-	__strong CHBinaryTreeNode *sentinelNode; // Sentinel node in the tree.
+	CHBinaryTreeNode *current; // The next node to be enumerated.
+	CHBinaryTreeNode *sentinelNode; // Sentinel node in the tree.
 	CHTraversalOrder traversalOrder; // Order in which to traverse the tree.
 	unsigned long mutationCount; // Stores the collection's initial mutation.
 	unsigned long *mutationPtr; // Pointer for checking changes in mutation.

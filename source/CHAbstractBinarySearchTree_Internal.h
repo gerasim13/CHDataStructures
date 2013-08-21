@@ -49,7 +49,7 @@ HIDDEN size_t kCHBinaryTreeNodeSize;
 #pragma mark Stack macros
 
 #define CHBinaryTreeStack_DECLARE() \
-	__strong CHBinaryTreeNode** stack; \
+	CHBinaryTreeNode** stack; \
 	NSUInteger stackCapacity, stackSize
 
 #define CHBinaryTreeStack_INIT() { \
@@ -83,7 +83,7 @@ HIDDEN size_t kCHBinaryTreeNodeSize;
 #pragma mark Queue macros
 
 #define CHBinaryTreeQueue_DECLARE() \
-	__strong CHBinaryTreeNode** queue; \
+	CHBinaryTreeNode** queue; \
 	NSUInteger queueCapacity, queueHead, queueTail
 
 #define CHBinaryTreeQueue_INIT() { \

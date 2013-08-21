@@ -7,7 +7,7 @@
 		<key>Framework.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<key>iOS Static Library.xcscheme</key>
 		<dict>
@@ -17,12 +17,32 @@
 		<key>iOS Unit Testing App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>00C4239B16D28302008E0CC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00C423B616D28B27008E0CC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00C423D516D28B28008E0CC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00C423EE16D28C98008E0CC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00C4240D16D28C98008E0CC8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
